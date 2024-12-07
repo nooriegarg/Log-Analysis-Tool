@@ -14,7 +14,7 @@ This repository contains a Python script to analyze server log files, extract us
 3. Output: Results are saved to a CSV file (log_analysis_results.csv) with detailed analysis.
 
 # Requirements
-Python 3.8 or higher
+Python 3.8 or higher\n
 Pandas library
 
 # File Structure
