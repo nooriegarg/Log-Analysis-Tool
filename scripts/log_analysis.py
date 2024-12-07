@@ -2,8 +2,8 @@ import re
 import pandas as pd
 
 # Define the log file and output csv file paths
-log_file = "sample.log"
-output_file = "log_analysis_results.csv"
+log_file = "data/sample.log"
+output_file = "results/log_analysis_results.csv"
 
 SUSPICIOUS_THRESHOLD = 10   # Threshold for suspicious activity
 
