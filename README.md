@@ -18,36 +18,36 @@ Python 3.8 or higher<br/>
 Pandas library
 
 # File Structure
-├── data
-│   └── sample.log               # Example log file
-├── results
-│   └── log_analysis_results.csv # Analysis results
-├── scripts
-│   └── log_analysis.py          # Python script for log analysis
+├── data<br/>
+│   └── sample.log               # Example log file<br/>
+├── results<br/>
+│   └── log_analysis_results.csv # Analysis results<br/>
+├── scripts<br/>
+│   └── log_analysis.py          # Python script for log analysis<br/>
 ├── README.md                    # Project description
 
 # How to Run the Script
-Clone this repository to your local machine:
-  git clone https://github.com/your-username/Log-Analysis-Tool.git
-  cd Log-Analysis-Tool
+Clone this repository to your local machine:<br/>
+  git clone https://github.com/your-username/Log-Analysis-Tool.git<br/>
+  cd Log-Analysis-Tool<br/>
 Place your log file in the data/ directory if you want to analyze a different file.
 
 # Run the Python script:
-  python scripts/log_analysis.py
+  python scripts/log_analysis.py<br/>
 Check the results/ directory for the output CSV file.
 
 # Output
 The script generates a CSV file with the following information:
   - Requests per IP: Counts the number of requests made by each IP address.
   - Most Accessed Endpoint: Identifies the endpoint with the highest access count.
- - Suspicious Activity: Detects IPs with failed login attempts exceeding a defined threshold.
+  - Suspicious Activity: Detects IPs with failed login attempts exceeding a defined threshold.
    
 # Customizations
-You can modify the threshold for detecting suspicious activity by changing the SUSPICIOUS_THRESHOLD value in the script:
+You can modify the threshold for detecting suspicious activity by changing the SUSPICIOUS_THRESHOLD value in the script:<br/>
   SUSPICIOUS_THRESHOLD = 10
   
 # Example Log Entry
-Here’s an example of a log line the script can process:
+Here’s an example of a log line the script can process:<br/>
 
  127.0.0.1 - - [10/Dec/2024:12:45:33 +0000] "GET /index.html HTTP/1.1" 200 1043
  
